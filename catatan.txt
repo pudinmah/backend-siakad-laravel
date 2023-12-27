@@ -1,0 +1,17 @@
+composer dump-autoload
+
+UserSeeder
+
+Fortify at Login, Logout, Register
+
+
+
+git init
+git remote add origin git@github.com:pudinmah/backend-siakad-laravel.git
+git push origin master
+git branch 02-fortify
+git checkout 02-fortify
+
+composer install
+php artisan key:generate
+php artisan migrate:frash --seed
