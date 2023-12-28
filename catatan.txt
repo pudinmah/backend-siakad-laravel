@@ -15,3 +15,24 @@ git checkout 02-fortify
 composer install
 php artisan key:generate
 php artisan migrate:frash --seed
+
+
+git branch 03-crud-user
+git branch 03-crud-user
+git branch 03-crud-user
+
+
+SubjectFactory
+y
+Subject
+
+
+SubjectSeeder
+
+SubjectSeeder::class
+
+ScheduleFactory
+y
+Schedule
+
+
