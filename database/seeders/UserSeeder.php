@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         // create otomatis
-        User::factory(10)->create();
+        User::factory(200)->create();
 
         // create static
         User::create([
@@ -23,6 +23,7 @@ class UserSeeder extends Seeder
             'email'=>'pudinmah4@gmail.com',
             'email_verified_at'=> now(),
             'password'=> Hash::make('12341234'),
+            'roles'=> 'admin',
         ]);
     }
 }
